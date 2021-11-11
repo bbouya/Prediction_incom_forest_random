@@ -13,3 +13,5 @@ print(income_data.head())
 
 # Format The Data For Scikit-learn
 labels = income_data[["income"]]
+
+train_data,test_data,labels_data,labels_test = train_test_split(data,labels)
